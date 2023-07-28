@@ -37,37 +37,105 @@ span{
 h2 {
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
+ 
 }
 
-.bluefont{
-  color:#19A7CE;
+/*------About ME----------------*/
+
+.aboutme {
+  height: 50vh;
+  padding-bottom: 100px;
+
+}
+.bluefont {
+  padding-top: 75px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.iconfeature {
+
+  display: flex;
+  justify-content: space-evenly;
+
+  
+}
+
+
+.captionicon {
+  font-size: small;
+  font-family: 'Roboto', sans-serif;
+  width: 100px;
+
+}
+/*----------Another About ME----------*/
+
+.aboutmestill{
+  height: 100vh;
+  padding-bottom: 70px;
 
 }
 
-.aboutme{
-width: 100%;
-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.container-about{
+  margin-top: 100px;
+  display: flex;
+}
+
+.portfolio{
+  margin-left: 100px;
+  
+}
+
+.intro  {
+  text-align: center;
+  padding: 100px ;
+
+  
+}
+
+.skills {
+margin-right: 50px;
+
 }
 
 
+/*----ProgressBar----------*/
 
-.intro{
-  width: 40%;
-  text-align: center;  
-  font-family: 'Raleway', sans-serif;
+.w3-light-grey {
+  background-color: gray;
+}
+.w3-blue{
+  background-color: #00B4D8;
+}
+.w3-round{
+  border-radius: 4 4;
+}
+
+.w3-container{
+  width: 350px;
+  height: 25px;
 }
 
 
-.profilepicture{
-  height:300px;
-  width:200px;
-  border-radius: 50%;
+.project{
+  height: 200vh;
+  padding: 20px;
+  background-color: #19A7CE;
+  
 }
 
+.myprojectheading{
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+.projectto {
+  height: 300px;
+  width: 500px;
+}
+/*----------Footer---------------*/
+footer {
   
   height: 100px;
   padding: 10px;
@@ -76,7 +144,7 @@ align-items: center;
   align-items: center;
   background: #90E0EF;
   font-size: 15px;
-  font-family: font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color:white;
 
 }
